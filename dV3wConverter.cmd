@@ -12,11 +12,11 @@ GOTO START
 :START
 REM cmake generator. 
 REM Use "cmake -G" to list generators and chose this installed on your system. 
-SET GENERATOR=Visual Studio 16 2019
+SET GENERATOR=Visual Studio 17 2022
 
 REM Microsoft Visual Studio IDE directories 
 REM SET MSVSIDE=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE
-SET MSVSIDE=c:\Program Files\Microsoft Visual Studio\2019\Community\Common7\IDE
+SET MSVSIDE=C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE
 
 REM Path to git command if any. Comment this line if you do not have git installed.
 SET GITPATH=%MSVSIDE%\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
